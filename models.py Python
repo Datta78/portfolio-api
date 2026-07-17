@@ -1,0 +1,20 @@
+# Data Models - Portfolio API
+
+projects = [
+    {
+        "id": 1,
+        "title": "Online Food Ordering System",
+        "description": "Full-stack platform with admin panel",
+        "tech": ["PHP", "MySQL", "JavaScript"],
+        "status": "Completed"
+    },
+    {
+        "id": 2,
+        "title": "Expense Manager",
+        "description": "Finance tracker with reports",
+        "tech": ["PHP", "MySQL", "Chart.js"],
+        "status": "Completed"
+    }
+]
+
+skills = ["Python", "PHP", "JavaScript", "MySQL", "Flask", "Git"]
