@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print("🚀 Portfolio API running on http://localhost:5000")
     print("Visit http://localhost:5000 in browser")
     app.run(debug=True)
+
