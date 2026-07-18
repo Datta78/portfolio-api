@@ -1,12 +1,13 @@
 # Portfolio API - Dattatray Bhosale
-# Strong Backend Project for Recruiters
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
+from datetime import datetime
 from models import projects, skills
 from routes import routes
-from datetime import datetime
+from extensions import init_extensions
 
 app = Flask(__name__)
+init_extensions(app)
 app.register_blueprint(routes)
 
 @app.route('/')
@@ -24,6 +25,4 @@ def home():
 
 if __name__ == '__main__':
     print("🚀 Portfolio API running on http://localhost:5000")
-    print("Visit http://localhost:5000 in browser")
     app.run(debug=True)
-
