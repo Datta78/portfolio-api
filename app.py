@@ -26,3 +26,5 @@ def home():
 if __name__ == '__main__':
     print("🚀 Portfolio API running on http://localhost:5000")
     app.run(debug=True)
+
+
