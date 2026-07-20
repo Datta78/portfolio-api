@@ -17,3 +17,4 @@ REST API for Personal Portfolio - Built with Python & Flask
 ```bash
 pip install -r requirements.txt
 python app.py
+**day 2 trying new things **
